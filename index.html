@@ -6,64 +6,177 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body>
-    <!--Шапка-->
-    <header>
-      <nav>
-        <a href="">WebStudio</a>
-        <ul>
-          <li><a href="">Студія</a></li>
-          <li><a href="">Портфоліо</a></li>
-          <li><a href="">Контакти</a></li>
+  <body class="page">
+    <!--шапка (?верхня лінія у макеті?)-->
+    <header class="header">
+      <nav class="nav">
+        
+        <a class="logo" href="index.html"><span class="logo-first-word">Web</span>Studio</a>
+        
+        <ul class="list">
+          <li class="list-item">
+            <a class="link"> <a class="link" href="#studio">Студія</a>
+          </li>
+          <li class="list-item">
+            <a class="link" href="#portfolio">Портфоліо</a>
+          </li>
+          <li class="list-item">
+            <a class="link" href="#contacts">Контакти</a>
+          </li>
         </ul>
-
-        <div>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
-        </div>
       </nav>
+
+      <div class="header-group">
+          <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+        </div>
     </header>
 
     <main>
-      <!--Секція "Герой"-->
-      <section>
-        <h1>Ефективні рішення для вашого бізнесу</h1>
-        <a href="">Замовити послугу</a>
+      <!--секція "герой" (?шапка у макеті?)-->
+      <section class="section">
+        <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>        
+        <button class="btn" type="button">Замовити послугу</button>
       </section>
-      <!--Секція "Переваги команди DevStudio" -->
-      <section>
-        <ul>
-          <li>
-            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p>
-              Ідейні міркування, U+0456 навіть початок повсякденної роботи з
+
+      <!--секція "особливості команди DevStudio" -->
+      <section class="section">
+        <ul class="list">
+          <li class="list-item">
+            <h2 class="section-title">УВАГА ДО ДЕТАЛЕЙ</h2>
+            <p class="descript">
+              Ідейні міркування, &#105; навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
-          <li>
-            <h3>ПУНКТУАЛЬНІСТЬ</h3>
-            <p>
-              Завдання організації, особливо рамки і місце навчання кадрів тягне
+          <li class="list-item">
+            <h2 class="section-title">ПУНКТУАЛЬНІСТЬ</h2>
+            <p class="descript">
+              Завдання організації, особливо рамки &#105; місце навчання кадрів тягне
               у себе.
             </p>
           </li>
-          <li>
-            <h3>ПЛАНУВАННЯ</h3>
-            <p>
+          <li class="list-item">
+            <h2 class="section-title">ПЛАНУВАННЯ</h2>
+            <p class="descript">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li>
-            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p>
+          <li class="list-item">
+            <h2 class="section-title">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
+            <p class="descript">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
           </li>
         </ul>
       </section>
+      <!--секція "чим ми займаємось"-->
+      <section class="section">
+        <h2 class="section-title">Чим ми займаємося</h2>
+        <ul class="list">
+          <li class="list-item">
+            <img
+              class="img"
+              src="./images/ourworks/img-1-squoosh.jpg"
+              alt="Programming for desktop"
+              width="370"
+              height="209"
+            />
+          </li>
+          <li class="list-item">
+            <img
+              class="img"
+              src="./images/ourworks/img-2-squoosh.jpg"
+              alt="Programming for phones"
+              width="370"
+              height="209"
+            />
+          </li>
+          <li class="list-item">
+            <img
+              class="img"
+              src="./images/ourworks/img-3-squoosh.jpg"
+              alt="Programming for tablets"
+              width="370"
+              height="209"
+            />
+          </li>
+        </ul>
+      </section>
+      <!--секція "наша команда"-->
+      <section class="section">
+        <h2 class="section-title">Наша команда</h2>
+        <ul class="list">
+          <li class="list-item">
+            <img
+              class="img"
+              src="./images/team/img-demianenko-squoosh.jpg"
+              alt="teammate"
+              width="270"
+              height="260"
+            />
+            <h3 class="team-name">Ігор Дем'яненко</h3>
+            <p class="team-position">Product Designer</p>    
+          </li>
+          <li class="list-item">
+            <img
+              class="img"
+              src="./images/team/img-repina-squoosh.jpg"
+              alt="teammate"
+              width="270"
+              height="260"
+            />
+            <h3 class="team-name">Ольга Рєпіна</h3>
+            <p class="team-position">Frontend Developer</p>    
+          </li>
+          <li class="list-item">
+            <img
+              class="img"
+              src="./images/team/img-tarasov-squoosh.jpg"
+              alt="teammate"
+              width="270"
+              height="260"
+            />
+            <h3 class="team-name">Микола Тарасов</h3>
+            <p class="team-position">Marketing</p>    
+          </li>
+          <li class="list-item">
+            <img
+              class="img"
+              src="./images/team/img-ermakov-squoosh.jpg"
+              alt="teammate"
+              width="270"
+              height="260"
+            />
+            <h3 class="team-name">Михайло Єрмаков</h3>
+            <p class="team-position">UI Designer</p>    
+          </li>
+        </ul>
+      </section>
     </main>
-
-    <footer></footer>
+    <!--підвал-->
+    <footer class="footer">
+        <a class="logo" href="index.html"><span class="logo-first-word">Web</span>Studio</a>
+        <address class="contacts-adress">
+            <ul class="list">
+              <li class="list-item">
+                <a
+                  class="link"
+                  href="https://goo.gl/maps/pMzpVghWTdphN7kk7"
+                  target="_blank"
+                  rel="noopener no referrer"
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                >
+              </li>
+              <li class="list-item">
+                <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+               <li class="list-item">
+                <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
+            </ul>          
+          </address>
+    </footer>
   </body>
 </html>
